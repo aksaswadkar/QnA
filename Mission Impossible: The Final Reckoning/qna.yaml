@@ -1,0 +1,129 @@
+version: 3
+created_by: aksaswadkar
+domain: movies
+
+seed_examples:
+  - context: |
+      "Mission: Impossible – The Final Reckoning" is a 2025 American action
+      spy film directed by Christopher McQuarrie, who co-wrote the screenplay
+      with Erik Jendresen. Serving as the sequel to "Mission: Impossible –
+      Dead Reckoning Part One" (2023), it is the eighth and final installment
+      in the Mission: Impossible film series. The film stars Tom Cruise as
+      Ethan Hunt, alongside Hayley Atwell, Ving Rhames, Simon Pegg, Henry
+      Czerny, and Angela Bassett. In the film, Hunt and his team unite to
+      stop the Entity, a rogue AI, from unleashing global destruction.
+    questions_and_answers:
+      - question: |
+          Who directed "Mission: Impossible – The Final Reckoning"?
+        answer: |
+          Christopher McQuarrie directed the film and co-wrote the screenplay
+          with Erik Jendresen.
+      - question: |
+          What is the significance of "The Final Reckoning" in the
+          Mission: Impossible series?
+        answer: |
+          It is the eighth and final installment in the Mission: Impossible
+          film series.
+      - question: |
+          Who are the main cast members?
+        answer: |
+          The main cast includes Tom Cruise, Hayley Atwell, Ving Rhames,
+          Simon Pegg, Henry Czerny, and Angela Bassett.
+
+  - context: |
+      The plot centers on Ethan Hunt and his team as they confront the Entity,
+      a rogue AI threatening global security. The team embarks on a high-stakes
+      mission to retrieve the AI's source code from a sunken Russian submarine.
+      Their journey spans international locations, with a final showdown in
+      a South African digital bunker. The mission's success is critical to
+      preventing worldwide disaster.
+    questions_and_answers:
+      - question: |
+          What is the central plot of "The Final Reckoning"?
+        answer: |
+          Ethan Hunt and his team must stop the Entity by retrieving its
+          source code from a sunken Russian submarine to prevent global
+          catastrophe.
+      - question: |
+          Where does the final confrontation take place?
+        answer: |
+          The final confrontation occurs at a South African digital bunker.
+      - question: |
+          What makes the mission so critical?
+        answer: |
+          The mission's success is crucial to preventing the Entity from
+          causing global destruction.
+
+  - context: |
+      The film features intense action sequences, including a high-stakes
+      aerial chase where Ethan battles Gabriel. In this climactic scene,
+      Ethan traps the AI, preventing disaster. The mission sees sacrifices,
+      including the deaths of Gabriel, General Sydney, and Luther, who dies
+      to minimize a nuclear explosion. Although the film concludes the
+      series, the ending leaves room for future installments.
+    questions_and_answers:
+      - question: |
+          Who is the main antagonist in "The Final Reckoning"?
+        answer: |
+          Gabriel is the primary antagonist in the film.
+      - question: |
+          What happens during the film's climax?
+        answer: |
+          Ethan traps the AI during an aerial chase, and key characters like
+          Gabriel, General Sydney, and Luther die during the mission.
+      - question: |
+          Is there room for future installments?
+        answer: |
+          Yes, while it concludes the story, the ending leaves room for
+          possible future films.
+
+  - context: |
+      Filming took place in diverse locations, including the Arctic Circle in
+      Svalbard, Norway. The filmmakers emphasized authenticity by shooting in
+      subzero temperatures instead of using green screens. Hayley Atwell
+      trained to lead sled dogs, and polar bear sightings occasionally
+      interrupted production. These efforts contributed to the film's
+      realistic, immersive action scenes.
+    questions_and_answers:
+      - question: |
+          Where was "The Final Reckoning" filmed?
+        answer: |
+          Filming took place in various locations, including the Arctic Circle
+          in Svalbard, Norway.
+      - question: |
+          How did the filmmakers ensure authenticity?
+        answer: |
+          They shot in subzero temperatures and avoided green screens.
+      - question: |
+          What special training did Hayley Atwell undergo?
+        answer: |
+          She trained to lead sled dogs across icy terrain.
+
+  - context: |
+      The film's music was composed by Max Aruj, known for his collaborations
+      with Hans Zimmer and Lorne Balfe. His score blends orchestral intensity
+      with modern action motifs, enhancing the tension and drama. The music
+      underscores the film's emotional impact and suspense.
+    questions_and_answers:
+      - question: |
+          Who composed the music for the film?
+        answer: |
+          Max Aruj composed the film's music.
+      - question: |
+          What is notable about Max Aruj's composition style?
+        answer: |
+          His composition blends orchestral intensity with modern action
+          motifs to enhance the film's tension and drama.
+      - question: |
+          Has Max Aruj worked with other renowned composers?
+        answer: |
+          Yes, Max Aruj has collaborated with Hans Zimmer and Lorne Balfe.
+
+document_outline: |
+  Detailed information about "Mission: Impossible – The Final Reckoning"
+  
+document:
+  repo: https://github.com/aksaswadkar/ai_knowledge.git
+  commit: 2d105b0d8a16e6c43871720dd4525ed8e339f364
+  patterns:
+    - Mission_Impossible.md
